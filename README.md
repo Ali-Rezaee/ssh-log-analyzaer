@@ -27,10 +27,11 @@ chmod +x ssh_log_analyzer.sh
 ### Example
 
 ```text
-Failed attempts: 3
+Failed attempts: 7
 Accepted attempts: 1
-ip(s) that can't login: 3 192.168.160.1
+ip(s) that can't login: 7 192.168.160.1
 ip(s) that can login: 1 192.168.160.1
+DANGER!: failed: 7 192.168.160.1
 ```
 
 ## Current Limitations
