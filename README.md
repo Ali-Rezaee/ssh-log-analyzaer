@@ -22,19 +22,25 @@ A Bash script for analyzing SSH authentication logs using `journalctl`.
 ```bash
 chmod +x ssh_log_analyzer.sh
 ./ssh_log_analyzer.sh
+```
 
-#example:
+### Example
+
+```text
 Failed attempts: 3
 Accepted attempts: 1
-ip(s) that can't login: 3 192.168.160.3
-ip(s) that can login: 2 192.168.160.5
+ip(s) that can't login: 3 192.168.160.1
+ip(s) that can login: 1 192.168.160.1
+```
 
-#Current Limitations
+## Current Limitations
+
 This is an educational Bash project and currently analyzes a limited number of recent SSH log entries.
 
 It does not perform continuous monitoring or analyze every possible SSH-related log event.
 
-#Future Improvements
+## Future Improvements
+
 - Live SSH log monitoring
 - Configurable alert threshold
 - Improved log parsing
